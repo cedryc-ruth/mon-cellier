@@ -40,6 +40,11 @@ xhr.onload = function() {
 			
 			li.addEventListener('click', function(e) {
 				this.style.backgroundColor = 'green';
+				
+				//TODO Afficher toutes les infos du vin sélectionné dans la div#fiche
+				const titre = document.querySelector('#fiche h2');
+				titre.innerText = this.innerText;
+				
 			});
 			
 			listeUL.appendChild(li);
