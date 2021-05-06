@@ -50,6 +50,8 @@ xhr.onload = function() {
 			listeUL.appendChild(li);
 		}
 	}
+	
+	$('button#btnDelete').click(function() { alert('DELETE') });
 }
 
 xhr.open('GET','https://cruth.phpnet.org/epfc/caviste/public/index.php/api/wines',true);
