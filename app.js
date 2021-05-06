@@ -10,7 +10,7 @@ fetch('https://cruth.phpnet.org/epfc/caviste/public/index.php/api/wines')
 	  .then(json => console.log(json));
 	  
 */
-
+//Modif
 //Avec XMLHttpRequest
 const xhr = new XMLHttpRequest();
 
